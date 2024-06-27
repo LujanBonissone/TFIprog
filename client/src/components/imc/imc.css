@@ -1,0 +1,80 @@
+/* components/imc/imc.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.mContainer {
+    background-color: rgba(240, 240, 240, 0.523);
+    width: 700px;
+    padding: 50px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.mTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.formInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.mButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.mButton:hover {
+    background-color: #0056b3;
+}
+
+.bmiResult {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bmiResult p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
